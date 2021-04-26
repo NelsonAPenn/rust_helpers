@@ -1,6 +1,8 @@
 extern crate rand;
 use rand::distributions::Distribution;
 
+pub mod combinator;
+
 /// Randomly select an item from `vector`. The item is removed from `vector`.
 /// Returns `Some(the_selected_item)` if present or `None` if the vector is empty.
 /// ## Examples
